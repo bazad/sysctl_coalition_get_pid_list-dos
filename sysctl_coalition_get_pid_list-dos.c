@@ -2,6 +2,8 @@
  * sysctl_coalition_get_pid_list-dos.c
  * Brandon Azad
  *
+ * CVE-2017-13868
+ *
  * The sysctl_coalition_get_pid_list function in bsd/kern/sys_coalition.c uses the
  * coalition_get_pid_list function to collect a list of PIDs in a coalition. This function will
  * return the number of PIDs if successful or a negative errno on failure. However, the
