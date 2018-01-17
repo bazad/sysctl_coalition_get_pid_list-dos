@@ -21,11 +21,14 @@ Exploitation requires root privileges.
 
 ## Timeline
 
-I reported this issue to Apple on September 21, 2017. It was assigned CVE-2017-13833. Apple fixed
-the issues in [macOS 10.13.2] and [iOS 11.2].
+I reported this issue to Apple on September 21, 2017. It was assigned ~~CVE-2017-13833~~
+CVE-2017-7173. Apple fixed the issues in [macOS 10.13.2] and [iOS 11.2].
 
 [macOS 10.13.2]: https://support.apple.com/en-us/HT208331
 [iOS 11.2]: https://support.apple.com/en-us/HT208334
+
+(Apple has since discovered that CVE-2017-13833 was previously assigned to a different issue and
+reassigned this issue CVE-2017-7173.)
 
 ## License
 
